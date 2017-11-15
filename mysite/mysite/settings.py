@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     #add by KangJ
     'polls',
     'portals',
+    'oauth2',
 ]
 
 MIDDLEWARE = [

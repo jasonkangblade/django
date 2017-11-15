@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #add by KangJ
     'polls',
-    'portals',
+    'oauth2',
 ]
 
 MIDDLEWARE = [
@@ -103,7 +103,7 @@ DATABASE_ROUTERS = ['mysite.database_router.DatabaseAppsRouter']
 DATABASE_APPS_MAPPING = {
     # example:
     #'app_name':'database_name',
-    'portals': 'portals_db',
+    'oauth2': 'portals_db',
 }
 
 

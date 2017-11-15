@@ -18,7 +18,7 @@ from django.contrib import admin
 from .views import homepage
 
 urlpatterns = [
-    url(r'^$', include('portals.urls',namespace='portals')),
+    url(r'^$', include('oauth2.urls',namespace='oauth2')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/',include('polls.urls',namespace="polls")),
 ]
